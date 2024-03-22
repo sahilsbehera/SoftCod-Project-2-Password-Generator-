@@ -48,7 +48,7 @@ delbutton = Button(box, text = "Clear" , font= ("Arial" , 15) ,background = "red
 delbutton.grid(pady = 5)
 
 
-passbox = Text(box, height = 2 , width = 21, font = ("Times New Roman", 20), background="black" ,fg = "white")
+passbox = Text(box, height = 2 , width = 21, font = ("Times New Roman", 20), background="white" ,fg = "black")
 passbox.grid(columnspan= 5, pady = 5)
 
 copybutton = Button(box, text= "Copy", font = ("Arial", 10,  "bold") , width = 12 , background="red" , command = copy)
